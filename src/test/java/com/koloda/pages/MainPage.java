@@ -16,8 +16,10 @@ public class MainPage {
 
     @FindBy(id = "#product-item-quantity-28870")
     public WebElement frokostEgg;
+
     @FindBy(id = "#product-item-quantity-9452")
     public WebElement avocado;
+
     @FindBy(id = "#product-item-quantity-9329")
     public WebElement bananer;
     @FindBy(id = "#product-item-quantity-26941")
@@ -26,6 +28,7 @@ public class MainPage {
     public WebElement ferskKoriander;
     @FindBy(id = "#product-item-quantity-9284")
     public WebElement blomkalSpania;
+
     @FindBy(id = "#product-item-quantity-8143")
     public WebElement tinemelkLett;
 
