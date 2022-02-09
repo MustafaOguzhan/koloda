@@ -1,0 +1,186 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4947934700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "login_stepdefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1327364100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enter the valid information",
+            "match": {
+              "location": "login_stepdefs.the_user_enter_the_valid_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15301100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "login_stepdefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T10:29:11.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 516300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Pay Bills negative",
+        "description": "",
+        "id": "pay-bills;pay-bills-negative",
+        "after": [
+          {
+            "result": {
+              "duration": 5612389900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 977551200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user navigate to \"Pay Bills\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 21
+                }
+              ],
+              "location": "navigation_stepdefs.the_user_navigate_to_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25331300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "page title should be \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 21
+                }
+              ],
+              "location": "navigation_stepdefs.page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4373900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user does not enter any amount of the money",
+            "match": {
+              "location": "payBills_stepDefs.the_user_does_not_enter_any_amount_of_the_money()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111091900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "enter the day information",
+            "match": {
+              "location": "payBills_stepDefs.enter_the_day_information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92992500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click to Pay button",
+            "match": {
+              "location": "payBills_stepDefs.click_to_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8097623600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "an error message \"Please\tfill out this field!\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please\tfill out this field!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "payBills_stepDefs.an_error_message_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payBill"
+          }
+        ]
+      }
+    ],
+    "name": "Pay Bills",
+    "description": "",
+    "id": "pay-bills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PayBills.feature",
+    "tags": []
+  }
+]
